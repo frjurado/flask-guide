@@ -7,8 +7,10 @@ Flask is a Python framework for developing web apps.
 It's designed as a very basic core which can then be extended.
 
 We will cover Flask essentials in this chapter.
-As it is based on two other libraries, Werkzeug and Jinja2,
+As it is based on two other libraries, **Werkzeug** and **Jinja2**,
 we will briefly talk about those too.
+(Flask has a third dependency, **itsdangerous**, used for encryption.
+We won't deal with that one directly.)
 
 The second chapter will cover the basic functionalities
 every reasonable app should implement (such as DB, forms or email).

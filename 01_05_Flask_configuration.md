@@ -12,7 +12,7 @@ Basics
 Every application needs a set of configuration values
 separated from the code itself. Why separated?
 
-* Pure modularization: one place for the code, another for the config.
+* Pure modularization: one place for the code, another for the configuration.
 * You probably need more than one configuration, generally three:
   one for development, one for testing and one for production.
   This way it's easier to change between them as needed.

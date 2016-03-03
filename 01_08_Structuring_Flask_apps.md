@@ -123,7 +123,7 @@ The function looks something like this:
 Databases (and extensions in general) will be covered later,
 but the formula at #1 is a necessary workaround:
 `db` will have been created outside the function,
-and so unbound to the app.
+and so unbound to the app; then you have to register it.
 
 Once this function is defined, you can create and run the app as expected:
 
@@ -151,7 +151,7 @@ in order to encapsulate each blueprint in its own package.
 
 We sketch here a possible structure with two blueprints,
 `main` and `user` (only the `/app` folder is shown).
-Each blueprint might have their own views, static and template  folders, etc.
+Each blueprint might have their own views, static and template folders, etc.
 
   ```
   /yourapplication

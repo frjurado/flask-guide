@@ -32,7 +32,7 @@ or explicitly:
   from flask import Flask
   app = Flask(__name__)
 
-  # Option 1 (more useful with fized code)
+  # Option 1 (more useful with fixed code)
   with app.app_context():
       ### do stuff
 
@@ -72,7 +72,7 @@ Keep in mind that, if you're working with the shell and create
 the Request Context explicitly, you still have to manually call
 before and after request (but not the teardown) functions.
 
-  ```python
+  ```bash
   >>> req_ctx = app.test_request_context('/')
   >>> req_ctx.push()
   >>> app.preprocess_request() # before_request functions
